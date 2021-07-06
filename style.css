@@ -29,11 +29,8 @@ ul {
 li {
   float: left;
 }
-.navbar {
-  margin-left: 120px;
-}
+
 li a {
-  padding: 8px 10px;
   display: block;
   color: white;
   text-align: center;
@@ -43,6 +40,10 @@ li a {
 li a:hover {
   background-color: rgb(87, 87, 87);
   border-radius: 8px;
+}
+.topnav {
+  float: right;
+  margin-right: 150px;
 }
 #orderfood {
   display: flex;
@@ -87,6 +88,7 @@ li a:hover {
 h2 {
   font-size: 40px;
   padding-top: 20px;
+  margin: 0;
 }
 .my-recipies {
   text-align: center;
@@ -101,7 +103,7 @@ h2 {
   margin: 0 35px;
   border-radius: 30px;
   width: 350px;
-  padding: 20px;
+  padding: 20px 20px 0 20px;
   box-shadow: 10px 12px 30px rgb(136, 136, 136);
 }
 .galary img {
@@ -123,7 +125,7 @@ h2 {
 }
 footer {
   text-align: center;
-  padding: 30px 0 100px 0;
+  padding: 30px 0 50px 0;
   background-color: rgb(83, 83, 83);
   color: antiquewhite;
 }
