@@ -7,6 +7,9 @@ h1 {
   font-size: 55px;
   line-height: 0.6;
 }
+p {
+  font-size: 18px;
+}
 span {
   color: rgb(221, 144, 0);
 }
@@ -76,4 +79,51 @@ li a:hover {
   margin-left: 200px;
   margin-top: 150px;
   width: 30%;
+}
+#Recipies {
+  margin-top: 70px;
+  margin-left: 90px;
+}
+h2 {
+  font-size: 40px;
+  padding-top: 20px;
+}
+.my-recipies {
+  text-align: center;
+}
+.my-recipies p {
+  padding: 0px 400px;
+}
+.galary {
+  display: flex;
+}
+.galarycard {
+  margin: 0 35px;
+  border-radius: 30px;
+  width: 350px;
+  padding: 20px;
+  box-shadow: 10px 12px 30px rgb(136, 136, 136);
+}
+.galary img {
+  width: 350px;
+  height: 330px;
+  border-radius: 30px;
+}
+#viewcount {
+  margin: 150px 90px 150px 130px;
+  border-radius: 30px;
+  box-shadow: 10px 12px 50px rgb(136, 136, 136);
+}
+.views {
+  display: flex;
+  text-align: center;
+}
+.cont {
+  padding: 0 120px;
+}
+footer {
+  text-align: center;
+  padding: 30px 0 100px 0;
+  background-color: rgb(83, 83, 83);
+  color: antiquewhite;
 }
